@@ -75,7 +75,7 @@
             templateUrl: 'found-items.html',
             scope: {
                 found: '<foundItems',
-                controller: '<onRemove'
+                remove: '&onRemove'
             }
         };
         return ddo;
