@@ -2,7 +2,7 @@
     'use strict';
 
     angular.module('NarrowItDownApp', [])
-    .constant('BaseURL', 'http://davids-restaurant.herokuapp.com')
+    .constant('BaseURL', 'https://davids-restaurant.herokuapp.com')
     .controller('NarrowItDownController', NarrowItDownController)
     .directive('foundItems', FoundItems)
     .service('MenuSearchService', MenuSearchService);
