@@ -4,10 +4,7 @@ h1 {
 input[type="text"] {
   width: 200px;
   float: left;
-}
-.narrow-button {
-  float: left;
-  margin-left: 10px;
+  margin-right: 10px;
 }
 .loader {
   display: none;
